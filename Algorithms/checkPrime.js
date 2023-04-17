@@ -1,17 +1,17 @@
-function isPrime(num){
-  var divisor=2
+// function isPrime(num){
+//   var divisor=2
 
-  while(num > divisor){
-    if(num % divisor ==0){
-       return false
-    }
-    else
-      divisor++
-  }
-  return true
-}
+//   while(num > divisor){
+//     if(num % divisor ==0){
+//        return false
+//     }
+//     else
+//       divisor++
+//   }
+//   return true
+// }
 
-console.log(isPrime(13)) 
+// console.log(isPrime(13)) 
 
 
 //  function MyOddnums(num){
@@ -26,15 +26,27 @@ console.log(isPrime(13))
 
 // MyOddnums(20)
 
-function isPrime(n){
-    divisor=2
-    while(n>divisor){
-        if(n%divisor==0){
-            return false
-        }
-        else divisor++
-    }
-    return true
+// function isPrime(n){
+//     divisor=2
+//     while(n>divisor){
+//         if(n%divisor==0){
+//             return false
+//         }
+//         else divisor++
+//     }
+//     return true
+// }
+
+// console.log(isPrime(6))
+
+
+function isPrime(num){
+  divisor=2;
+  while(num>divisor){
+    if(num%divisor==0) return false
+    else divisor++
+  }
+  return true
 }
 
-console.log(isPrime(6))
+console.log(isPrime(91))
